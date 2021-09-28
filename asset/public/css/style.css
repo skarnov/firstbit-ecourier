@@ -1,0 +1,328 @@
+/* 
+    Created on : Oct 8, 2016, 10:09:53 PM
+    Author     : Sheikh Arnov
+    Index
+    001. Default
+    002. Menu Bar
+    003. Content
+    004. Service
+    005. Form
+*/
+
+/* 001. Default */
+
+body{ 
+    padding-top: 50px;
+}
+
+/* End Default */
+
+/* 002. Menu Bar */
+
+.menu{ 
+    margin-top: 6%;
+}
+
+/* End Menu Bar */
+
+/* 003. Content */
+
+.main{
+    min-height: 722px;
+    background: linear-gradient(green, white);
+}
+
+.content h3{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 48px;
+    text-align: center;
+}
+
+.content p{
+    text-align: center;
+    font-size: 27px;
+    color: black;
+}
+
+.trace{
+    background-color: whitesmoke;
+    padding: 7%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+.trace h4{
+    color: black;
+}
+
+.individual{
+    margin-top: 7%;
+    background-color: whitesmoke;
+    padding: 2%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.individual a{
+    text-decoration: none;
+    color:black;
+}
+
+.individual a:hover{
+    text-decoration: none;
+    color: green;
+}
+
+.franchise{
+    margin-top: 7%;
+    background-color: #166d17;
+    padding: 2%;
+    text-align: center;
+    font-size: 46px;
+    font-weight: bold;
+    height: 86px;
+}
+
+.franchise a{
+    text-decoration: none;
+    color:black;
+}
+
+.franchise a:hover{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.quote-box{
+    background-color: whitesmoke;
+    padding: 7%;
+}
+
+.live{
+    font-size: 20px;  
+}
+
+.phone{
+    font-size: 36px;
+    line-height: 13%;
+}
+
+.banner{
+    height: 279px;
+    margin-top: 7%;
+}
+/* End Content */
+
+/* 004. Service */
+
+.service{
+    margin-top: 2%;
+}
+
+.service-name p{
+    font-size: 30px;
+    margin-top: -5%;
+}
+
+.service-image{
+    height: 65px;
+    width: 65px;
+    margin-top: 60%;
+}
+
+/* End Service */
+
+
+/* 005. Form */
+
+.required{ 
+    color:red;
+}
+
+/* End Form */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 007. Footer */
+
+.footer p {
+    margin: 0;
+    text-align: justify;
+}
+
+.footer img {
+    max-width: 100%;
+}
+
+.footer h3 {
+    border-bottom: 1px solid #BAC1C8;
+    color: #54697E;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    text-transform: uppercase;
+}
+
+.footer ul {
+    font-size: 13px;
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 15px;
+    color: #7F8C8D;
+}
+
+.footer ul li a {
+    padding: 0 0 5px 0;
+    display: block;
+}
+
+.footer a {
+    color: #78828D
+}
+
+.social li {
+    background: none repeat scroll 0 0 #B5B5B5;
+    border: 2px solid #B5B5B5;
+    border-radius: 50%;
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    margin: 0 8px 0 0;
+    padding: 0;
+    text-align: center;
+    width: 36px;
+    transition: all 0.5s ease 0s;
+}
+
+.social li:hover {
+    transform: scale(1.15) rotate(360deg);
+}
+
+.social li a {
+    color: #EDEFF1;
+}
+
+.social li:hover {
+    border: 2px solid #2c3e50;
+    background: #2c3e50;
+}
+
+.social li a i {
+    font-size: 16px;
+    margin: 0 0 0 5px;
+    color: #EDEFF1 !important;
+}
+
+.footer-bottom {
+    background: #E3E3E3;
+    border-top: 1px solid #DDDDDD;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer-bottom p.pull-left {
+    padding-top: 6px;
+}
+
+.payments {
+    font-size: 1.5em;	
+}
+
+/* End Footer */
+
+/* 010. Responsive Design */
+
+/* Mobile Screen */
+
+@media(max-width:767px){
+    .update{
+        display: none;
+    }
+
+    .account{
+        background-color: #f8f8f8;
+    }
+
+    .news{
+        display: none;
+    }
+
+    /*    .logo{
+            margin-top: -6%;
+        }
+    
+        .header{
+            margin-top: 20%;
+        }*/
+}
+
+/* End of Extra Small Screen */
+
+/* Tab Screen */
+
+@media(min-width:768px){
+    .news{
+        width: 320px;
+    }
+
+    /*    .logo{
+            margin-top: 10%;
+        }*/
+}
+
+/* End Small Screen */
+
+/* Medium Screen */
+
+@media(min-width:992px){
+    .news{
+        width: 550px;
+    }
+
+    .menu{
+        margin-top: 3%;
+    }
+}
+
+/* End Medium Screen */
+
+/* TV Screen */
+
+@media(min-width:1200px){
+    .news{
+        margin-left: -3%;
+        width: 750px;
+    }
+}
+
+/* End Large Screen */
+
+/*End Responsive Design*/
